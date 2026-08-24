@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prepare": "husky install",
+    "test": "echo \"No tests specified\""
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.120.0",
@@ -28,6 +30,7 @@
     "eslint-config-next": "16.3.1",
     "prisma": "^7.9.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "husky": "^8.0.0"
   }
 }
